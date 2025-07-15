@@ -1,8 +1,8 @@
 list=[1,5,6,5,1,2,3]
 duplicate = []
 
-for item in list:
-    if list.count(item) > 1 and item not in duplicate:
-        duplicate.append(item)
+for num in list:
+    if list.count(num) > 1 and item not in duplicate:
+        duplicate.append(num)
 
 print('Duplicate elements is : ', duplicate)
